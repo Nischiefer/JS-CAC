@@ -78,3 +78,33 @@ const myFunc= function(){
 }
 myFunc();
 console.log(typeof myFunc)          //function ko type obj. function bhanincha 
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack(Primtive) ,
+// stack use huda var declare ko copy paucha
+
+
+let myYtname="Nischiefer"
+
+let anothername= myYtname           //notoriginal so yes only copy value aako ko value aatikai change huncha but original change hudaina
+anothername="nischiefer2nd"
+console.log(myYtname);
+console.log(anothername);
+
+
+
+// Heap(Non-Primtive)
+// heap use huda var declare ko reference paucha original val ko
+//j ni change gare original ma nai change huncha
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl",
+}
+
+let userTwo=userOne
+userTwo.email="user2@google.com"        //yets just reference pako not the copy of data so tyo aauta le change gardiye original nai change bhayo
+console.log(userOne.email);
+console.log(userTwo.email);
