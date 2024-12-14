@@ -105,6 +105,6 @@ let userOne={
 }
 
 let userTwo=userOne
-userTwo.email="user2@google.com"        //yets just reference pako not the copy of data so tyo aauta le change gardiye original nai change bhayo
+userTwo.email="user2@google.com"        //yeta just reference pako not the copy of data so tyo aauta le change gardiye original nai change bhayo
 console.log(userOne.email);
 console.log(userTwo.email);
