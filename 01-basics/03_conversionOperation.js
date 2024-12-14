@@ -24,3 +24,36 @@ let somenum=33;
 let strnum= String(somenum)
 console.log(strnum)
 console.log(typeof strnum)
+
+//**********Operations**********
+let val=3
+let negVal=-val
+console.log(negVal)
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/2);
+// console.log(2%3);
+
+let str1="Nischal"
+let str2="Shrestha"
+let str3= str1 +str2
+console.log(str3);
+
+// console.log("1"+2)      //str   left to right str first ma bhaye sab str
+// console.log(1 + "2")    //str
+// console.log("1" + 2 + 2)    //str
+// console.log(1 + 2 + "2")    //num str
+// console.log(1 + 2 + "2" + 4)    //num str
+
+console.log(+true)
+console.log(+"")
+
+let num1 = num2 = num3 =2+2       //calcha code sab ko value 4 huncha but dont try this shit
+
+let gameCounter=100
+++gameCounter ;
+console.log(gameCounter)
+
