@@ -36,13 +36,17 @@ Primitive DataTypes:
 
 6.Symbol (ES6): it is mostly used used to find uniqueness.
 
-7.BigInt (ES11): Represents large integers that cannot be represented by the Number type.
+
+7.BigInt (ES11): Represents large integers that cannot be represented by the Number type. last ma 'n' rakhde huncha for eg const bignum=22328932378287827378237n
 */
 
+//symbol ko eg
+const id=Symbol('123')
+const anotherid=Symbol('123')
+console.log(id===anotherid);        //false same dekheni symbol le garda diggerent huncha (unique huncha)
 
 
-
-//#Reference (Non- Primitive)
+//#Reference (Non- Primitive)           return type sab ko obj aaucha
 
 //Arrray, Objects, Functions
 /*
@@ -56,3 +60,21 @@ Primitive DataTypes:
 
 5.RegExp: Represents regular expressions for pattern matching.
 */
+
+//arrays eg
+const heros=["deadpool","iron","spider","hulk"]
+
+//obj eg
+let myObj = {
+    name: "Nischal",
+    age:21,
+}
+
+//function eg
+// function (){
+// }
+const myFunc= function(){
+    console.log("hello nischal");
+}
+myFunc();
+console.log(typeof myFunc)          //function ko type obj. function bhanincha 
