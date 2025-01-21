@@ -34,6 +34,7 @@ console.log(myn1)
 console.log("B",myArr);
 
 
-const myn2 = myArr.splice(1,3)
+const myn2 = myArr.splice(1,3)              //splice le chai chokta nai nikaldincha original array bata and 
+                                            //index ingore hudaina i.e. 1-3 bhanepachi 1,2,3 3ota nai dekhayo
 console.log("C",myArr);
 console.log(myn2)
