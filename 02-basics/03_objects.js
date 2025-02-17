@@ -25,7 +25,7 @@ const JsUser = {
 JsUser.email = "Nischalkomail@gmail.com"        //mail change agrna
 // Object.freeze(JsUser)                           //lock or change garnna nadina freeze sue agrna and with Object.freeze()
 JsUser.email = "Nismail@gmail.com"        
-// console.log(JsUser)
+console.log(JsUser)
 
 JsUser.greeting = function(){
     console.log("hello JS USer")
